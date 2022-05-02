@@ -30,7 +30,7 @@ public class SparsePetriNet extends PetriNet implements ISparsePetriNet {
 	private List<String> pnames=new ArrayList<>();
 	private int maxArcValue=0;
 	private boolean isSafe=false;
-	private static final int DEBUG = 0;
+	private static final int DEBUG = 2;
 	private boolean isSkeleton=false;
 	
 	public SparsePetriNet() {

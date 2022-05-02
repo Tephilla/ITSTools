@@ -51,7 +51,7 @@ import static fr.lip6.move.gal.structural.smt.SMTUtils.* ;
 
 public class DeadlockTester {
 
-	static final int DEBUG = 0;	
+	static final int DEBUG = 2;	
 	/**
 	 * Unsat answer means no deadlocks, SAT means nothing, as we are working with an overapprox.
 	 * @param sr

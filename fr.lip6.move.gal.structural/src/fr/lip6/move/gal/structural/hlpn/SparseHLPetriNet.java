@@ -34,7 +34,7 @@ import fr.lip6.move.gal.structural.expr.ParamRef;
 import fr.lip6.move.gal.structural.expr.Simplifier;
 
 public class SparseHLPetriNet extends PetriNet {
-	private static final int DEBUG = 0;
+	private static final int DEBUG = 2;
 	private List<Sort> sorts = new ArrayList<>();
 	private List<HLPlace> places = new ArrayList<>();
 	private List<HLTrans> transitions= new ArrayList<>();

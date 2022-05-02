@@ -35,7 +35,7 @@ public class SMTUtils {
 
 	static final POType useAbstractDataType = POType.Plunge;
 	static final Configuration smtConf = new SMT().smtConfig;
-	private static final int DEBUG = 0;
+	private static final int DEBUG = 2;
 
 	// utility class, don't instantiate
 	private SMTUtils() {}

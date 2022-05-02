@@ -33,7 +33,7 @@ import fr.lip6.move.serialization.SerializationUtil;
 
 public class ITSRunner extends AbstractRunner {
 
-	private static final int DEBUG = 0;
+	private static final int DEBUG = 2;
 	private String examination;
 	private MccTranslator reader;
 	protected CommandLine cl;

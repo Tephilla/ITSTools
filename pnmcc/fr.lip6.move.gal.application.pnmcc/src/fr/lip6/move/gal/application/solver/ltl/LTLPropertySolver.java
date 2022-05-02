@@ -52,7 +52,7 @@ import fr.lip6.move.gal.structural.smt.DeadlockTester;
 public class LTLPropertySolver {
 
 	private static final int NBSTEPS = 100000;
-	private static final int DEBUG = 0;
+	private static final int DEBUG = 2;
 	private String spotPath;
 	private String solverPath;
 	private String workDir;

@@ -15,7 +15,7 @@ import fr.lip6.move.gal.structural.expr.Param;
 import fr.lip6.move.gal.structural.expr.ParamRef;
 
 public class SymmetricUnfolder {
-	private static final int DEBUG=1;
+	private static final int DEBUG=2;
 	private static final boolean THAT_ONE_GUY=false;
 
 	private static Void computeParams(Expression e,  List<Param> params) {
